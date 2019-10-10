@@ -18,6 +18,7 @@
 		128C21F4234F73F900DF4EDC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F3234F73F900DF4EDC /* NetworkManager.swift */; };
 		128C21F6234F779300DF4EDC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F5234F779300DF4EDC /* Model.swift */; };
 		128C21F8234F7AC000DF4EDC /* recepieTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 128C21F7234F7AC000DF4EDC /* recepieTest.json */; };
+		128C21FA234F7E5E00DF4EDC /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F9234F7E5E00DF4EDC /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		128C21F3234F73F900DF4EDC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		128C21F5234F779300DF4EDC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		128C21F7234F7AC000DF4EDC /* recepieTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recepieTest.json; sourceTree = "<group>"; };
+		128C21F9234F7E5E00DF4EDC /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				128C21D1234F73AD00DF4EDC /* SceneDelegate.swift */,
 				128C21F1234F73CF00DF4EDC /* Contants.swift */,
 				128C21F5234F779300DF4EDC /* Model.swift */,
+				128C21F9234F7E5E00DF4EDC /* APIManager.swift */,
 				128C21F3234F73F900DF4EDC /* NetworkManager.swift */,
 				128C21D3234F73AD00DF4EDC /* ViewController.swift */,
 				128C21D5234F73AD00DF4EDC /* Main.storyboard */,
@@ -219,6 +222,7 @@
 				128C21F6234F779300DF4EDC /* Model.swift in Sources */,
 				128C21D2234F73AD00DF4EDC /* SceneDelegate.swift in Sources */,
 				128C21F2234F73CF00DF4EDC /* Contants.swift in Sources */,
+				128C21FA234F7E5E00DF4EDC /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
