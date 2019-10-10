@@ -52,6 +52,15 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let singleRecepie = recepies[indexPath.row]
+        let detailedVC = DetailedViewController()
+        detailedVC.singleRecepie = singleRecepie
+        
+        self.navigationController?.pushViewController(detailedVC, animated: true)
+        
+    }
+    
     
 }
 
