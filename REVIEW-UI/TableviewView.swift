@@ -5,6 +5,7 @@ class TableviewView: UIView {
 
     lazy var tableView: UITableView = {
        let foodTableView = UITableView()
+        foodTableView.frame = bounds
         foodTableView.register(RecepiesCell.self, forCellReuseIdentifier: "fooCell")
         return foodTableView
     }()
