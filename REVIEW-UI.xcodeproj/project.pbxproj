@@ -16,6 +16,8 @@
 		128C21E7234F73B000DF4EDC /* REVIEW_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21E6234F73B000DF4EDC /* REVIEW_UITests.swift */; };
 		128C21F2234F73CF00DF4EDC /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F1234F73CF00DF4EDC /* Contants.swift */; };
 		128C21F4234F73F900DF4EDC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F3234F73F900DF4EDC /* NetworkManager.swift */; };
+		128C21F6234F779300DF4EDC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C21F5234F779300DF4EDC /* Model.swift */; };
+		128C21F8234F7AC000DF4EDC /* recepieTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 128C21F7234F7AC000DF4EDC /* recepieTest.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		128C21E8234F73B000DF4EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		128C21F1234F73CF00DF4EDC /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
 		128C21F3234F73F900DF4EDC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		128C21F5234F779300DF4EDC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		128C21F7234F7AC000DF4EDC /* recepieTest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recepieTest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +87,11 @@
 		128C21CE234F73AD00DF4EDC /* REVIEW-UI */ = {
 			isa = PBXGroup;
 			children = (
+				128C21F7234F7AC000DF4EDC /* recepieTest.json */,
 				128C21CF234F73AD00DF4EDC /* AppDelegate.swift */,
 				128C21D1234F73AD00DF4EDC /* SceneDelegate.swift */,
 				128C21F1234F73CF00DF4EDC /* Contants.swift */,
+				128C21F5234F779300DF4EDC /* Model.swift */,
 				128C21F3234F73F900DF4EDC /* NetworkManager.swift */,
 				128C21D3234F73AD00DF4EDC /* ViewController.swift */,
 				128C21D5234F73AD00DF4EDC /* Main.storyboard */,
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				128C21DC234F73AF00DF4EDC /* LaunchScreen.storyboard in Resources */,
+				128C21F8234F7AC000DF4EDC /* recepieTest.json in Resources */,
 				128C21D9234F73AF00DF4EDC /* Assets.xcassets in Resources */,
 				128C21D7234F73AD00DF4EDC /* Main.storyboard in Resources */,
 			);
@@ -209,6 +216,7 @@
 				128C21D4234F73AD00DF4EDC /* ViewController.swift in Sources */,
 				128C21D0234F73AD00DF4EDC /* AppDelegate.swift in Sources */,
 				128C21F4234F73F900DF4EDC /* NetworkManager.swift in Sources */,
+				128C21F6234F779300DF4EDC /* Model.swift in Sources */,
 				128C21D2234F73AD00DF4EDC /* SceneDelegate.swift in Sources */,
 				128C21F2234F73CF00DF4EDC /* Contants.swift in Sources */,
 			);
