@@ -29,6 +29,8 @@ class DetailedViewController: UIViewController {
                 }
             }
         }
+        self.detailedView.recepieName.text = singleRecepie.recipe.label
     }
+   
 
 }

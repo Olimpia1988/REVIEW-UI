@@ -30,10 +30,13 @@ class DetailedView: UIView {
     
     func setContrains() {
         recepieImage.translatesAutoresizingMaskIntoConstraints = false
+        [recepieImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 22),recepieImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 44),recepieImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: -44), recepieImage.bottomAnchor.constraint(equalTo: recepieImage.topAnchor, constant: -22)].forEach{ $0.isActive = true }
         
-//        [recepieImage.centerYAnchor.constraint(equalTo: safeAreaLayoutGuide.centerYAnchor), recepieImage.centerXAnchor.constraint(equalTo: safeAreaLayoutGuide.centerXAnchor)].forEach{ $0.isActive = true }
+        recepieName.translatesAutoresizingMaskIntoConstraints = false
+        [recepieName.topAnchor.constraint(equalTo: recepieImage.bottomAnchor, constant: 22), recepieName.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -80), ]
         
-        [recepieImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 22), recepieImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 44), recepieImage.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -44), recepieImage.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -80)].forEach{ $0.isActive = true}
+        
+//        [recepieImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 22), recepieImage.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: 44), recepieImage.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -44), recepieImage.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -80)].forEach{ $0.isActive = true}
     }
     
     
